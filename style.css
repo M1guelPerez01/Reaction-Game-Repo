@@ -1,0 +1,27 @@
+body {
+    position: relative;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.target {
+    background-color: red;
+}
