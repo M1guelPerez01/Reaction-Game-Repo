@@ -1,12 +1,15 @@
+
+/* main body */
 body {
     position: relative;
 }
 
+/* title and score display */
 h1,h2 {
     text-align: center;
 }
 
-
+/* Main Grid */
 .grid {
     width: 606px;
     height: 606px;
@@ -14,6 +17,7 @@ h1,h2 {
     flex-wrap: wrap;
 }
 
+/* Square Display */
 .square {
     width: 200px;
     height: 200px;
@@ -22,6 +26,7 @@ h1,h2 {
     border-width: 1px;
 }
 
+/* pop-up box (target) */
 .target {
     background-color: red;
 }
